@@ -10,4 +10,9 @@ public class WebController {
     String mainPage(){
         return "main";
     }
+    @GetMapping("/login")
+    public String login(){
+        return "login";
+    }
+
 }
